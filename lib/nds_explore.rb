@@ -17,19 +17,16 @@ def print_first_directors_movie_titles
   movie = directors_database[0][:movies]
     while index < movie.length do
     puts movie[index][:title]
+     index += 1
     end
-  index += 1
 end
 
 
 # def print_first_directors_movie_titles
-  
 #   row_index = 0
 #   movies = directors_database[0][:movies]
 #   while row_index < movies.length do
 #   puts movies[row_index][:title]
 #   row_index += 1
-  
 #   end
-  
 # end
