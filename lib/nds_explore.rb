@@ -7,18 +7,17 @@ require 'pry'
 
 # puts directors_database
 
-# def pretty_print_nds(nds)
-#   # Change the code below to pretty print the nds with pp
-#   pp nds
-# end
+ def pretty_print_nds(nds)
+   # Change the code below to pretty print the nds with pp
+   pp nds
+ end
 
 def print_first_directors_movie_titles
   index = 0
-  binding.pry
    movie = directors_database[0][:movies]
-  #   while index < movie.length
-  #   print movie[index][:title]
-  #   end
+     while index < movies.length
+     print movie[index][:title]
+     end
   #index += 1
 end
 
