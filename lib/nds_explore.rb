@@ -15,19 +15,11 @@ require 'pry'
 def print_first_directors_movie_titles
   index = 0
    movie = directors_database[0][:movies]
-     while index < movies.length
+     while index < movie.length do
      print movie[index][:title]
      end
   #index += 1
 end
-
-
-
-
-
-
-
-
 
 
 
